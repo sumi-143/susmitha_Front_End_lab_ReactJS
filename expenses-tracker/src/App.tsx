@@ -1,4 +1,3 @@
-import React from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
 import ShowData from './Components/ShowData';
@@ -15,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

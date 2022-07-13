@@ -1,5 +1,7 @@
+
 import { ChangeEvent, Component, FormEvent } from "react";
 import {pushDataFromUser} from "../Services/Menu";
+import '../App.css'
 
 type Props = {
     onTrue : any,
@@ -23,10 +25,10 @@ class Form extends Component<Props,State> {
             price : 0,
             setDate : ""
         }
-        // this.setpayee = this.setpayee.bind(this);
-        // this.setproduct = this.setproduct.bind(this);
-        // this.setprice = this.setprice.bind(this);
-        // this.setDefaultDate = this.setDefaultDate.bind(this);
+        this.setpayee = this.setpayee.bind(this);
+        this.setproduct = this.setproduct.bind(this);
+        this.setprice = this.setprice.bind(this);
+        this.setDefaultDate = this.setDefaultDate.bind(this);
     }
 
     setpayee = (event : ChangeEvent<HTMLSelectElement>) => {

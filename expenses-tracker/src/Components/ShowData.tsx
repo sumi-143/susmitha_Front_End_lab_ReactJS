@@ -2,6 +2,7 @@ import IDataList from "../model/IDataList";
 import { getDataFromServer } from "../Services/Menu";
 import { useState, useEffect } from "react";
 import Form from "./Form";
+import '../App.css'
 
 function ShowData() {
 
